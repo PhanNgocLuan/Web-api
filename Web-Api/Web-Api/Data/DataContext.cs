@@ -1,18 +1,18 @@
 ﻿global using Microsoft.EntityFrameworkCore;
+using System.Text.RegularExpressions;
 
 namespace Web_Api.Data
 {
     public class DataContext : DbContext
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options) 
-        { 
-        
-        }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
-            base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseOracle(@"User Id=luanpn;Password=luanpn@123;Data Source=localhost:1521/cdb1;");
+        }
+        public DbSet<SuperHero> SUPERHERO { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            //builder.Entity<GroupPermissions>().HasKey(p => new { p.PERID, p.GROUPID });
         }
     }
 }

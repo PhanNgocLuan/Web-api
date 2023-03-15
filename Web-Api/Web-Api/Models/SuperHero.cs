@@ -1,11 +1,14 @@
-﻿namespace Web_Api.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Web_Api.Models
 {
     public class SuperHero
     {
-        public int Id { get; set; }
-        public string Name { get; set; } = string.Empty;
-        public string FirstName { get; set; } = string.Empty;
-        public string LastName { get; set; } = string.Empty;
-        public string Place { get; set; } = string.Empty;
+        [Key]
+        public int ID { get; set; }
+        public string NAME { get; set; }
+        public string FIRSTNAME { get; set; }
+        public string LASTNAME { get; set; }
+        public string PLACE { get; set; }
     }
 }

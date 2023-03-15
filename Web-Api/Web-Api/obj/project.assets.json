@@ -1935,23 +1935,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KhanhNguyenIT\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Premium\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj",
+      "projectUniqueName": "D:\\ASP.NET\\TESTING\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj",
       "projectName": "Web-Api",
-      "projectPath": "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj",
-      "packagesPath": "C:\\Users\\KhanhNguyenIT\\.nuget\\packages\\",
-      "outputPath": "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\obj\\",
+      "projectPath": "D:\\ASP.NET\\TESTING\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj",
+      "packagesPath": "C:\\Users\\Premium\\.nuget\\packages\\",
+      "outputPath": "D:\\ASP.NET\\TESTING\\Web-api\\Web-Api\\Web-Api\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\KhanhNguyenIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Premium\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2015,7 +2011,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
