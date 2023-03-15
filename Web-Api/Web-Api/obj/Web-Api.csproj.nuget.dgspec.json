@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luanp\\source\\repos\\Web-Api\\Web-Api\\Web-Api.csproj": {}
+    "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luanp\\source\\repos\\Web-Api\\Web-Api\\Web-Api.csproj": {
+    "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luanp\\source\\repos\\Web-Api\\Web-Api\\Web-Api.csproj",
+        "projectUniqueName": "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj",
         "projectName": "Web-Api",
-        "projectPath": "C:\\Users\\Luanp\\source\\repos\\Web-Api\\Web-Api\\Web-Api.csproj",
-        "packagesPath": "C:\\Users\\Luanp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luanp\\source\\repos\\Web-Api\\Web-Api\\obj\\",
+        "projectPath": "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\Web-Api.csproj",
+        "packagesPath": "C:\\Users\\KhanhNguyenIT\\.nuget\\packages\\",
+        "outputPath": "F:\\ASP.NET\\Web-api\\Web-Api\\Web-Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Luanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KhanhNguyenIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
